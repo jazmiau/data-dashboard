@@ -7,9 +7,27 @@ nav img{ /*Logo laboratoria*/
 
 .correo{
 font-family: 'Doppio One', sans-serif;
-font-size: 15px;
+font-size: 20px;
 display: inline-block;
-vertical-align: middle;
+vertical-align: text-top;
 
+
+
+
+}
+
+#lateral_bar{
+	
+ 	display: inline-block;
+	background-color: #04b486;
+	height: 1000px;
+    width: 200px;
+
+}
+
+
+#firts_info{
+display: inline-block;
+margin-left: 250px;
 
 }
