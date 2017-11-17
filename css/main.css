@@ -3,8 +3,6 @@ body{
 }
 
 
-
-
 nav img{ /*Logo laboratoria*/
 	height: 80px;
 	width: 150;
@@ -38,14 +36,69 @@ nav button i{
 }
 
 #lateral_bar{
-
+  font-family: 'Doppio One', sans-serif;
  	display: inline-block;
 	background-color: #e1e1e1;
 	height: 1000px;
   width: 200px;
-
 }
 
+#lateral_bar h2{
+	text-align: center;
+}
+
+#lateral_bar li{
+	list-style: none;
+	margin-bottom: 40px;
+}
+
+#lateral_bar ul{
+	padding-left: 10px;
+}
+
+li * {
+	display: inline-block;
+}
+
+li p{
+ margin-left: 5px;
+ width: auto;
+}
+
+li input{
+	float: left;
+	margin-top: 20px;
+}
+
+li button{
+	width: 15px;
+	height: 15px;
+	padding: 0px;
+	background-color: transparent;
+	border: transparent;
+}
+
+li .fa-sort-desc{
+  float: left;
+	margin-left: 2px;
+	display: inline-block;
+	margin-top: 0;
+}
+
+.box5 button{
+	width: 15px;
+	height: 15px;
+	padding: 0px;
+	background-color: transparent;
+	border: transparent;
+}
+
+.box5 .fa-sort-desc{
+  float: left;
+	margin-left: 2px;
+	display: inline-block;
+	margin-top: 0;
+}
 
 #firts_info {
   display: inline-block;
