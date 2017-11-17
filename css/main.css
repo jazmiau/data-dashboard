@@ -1,44 +1,22 @@
-nav img{ /*Logo laboratoria*/
+body{
+	margin: 0px auto;
+}
 
+
+
+
+nav img{ /*Logo laboratoria*/
 	height: 80px;
 	width: 150;
 	margin-left: 550px;
 }
 
 .correo{
-<<<<<<< HEAD
-font-family: 'Doppio One', sans-serif;
-font-size: 20px;
-display: inline-block;
-vertical-align: text-top;
-
-
-
-
-}
-
-#lateral_bar{
-	
- 	display: inline-block;
-	background-color: #04b486;
-	height: 1000px;
-    width: 200px;
-
-}
-
-
-#firts_info{
-display: inline-block;
-margin-left: 250px;
-
-}
-=======
   font-family: 'Doppio One', sans-serif;
-  font-size: 15px;
   display: inline-block;
   float: right;
-  margin-right: 20px;
 	margin-top: 20px;
+	margin-right: 20px;
 	color: #e1e1e1;
 }
 
@@ -50,4 +28,28 @@ nav button{
 	border: transparent;
 	font-size: 30px;
 }
->>>>>>> b656293dbd532b238173de1c6cdd6c45eb00d1f9
+
+nav button i{
+	font-size: 15px;
+  display: inline-block;
+  float: right;
+  margin-right: 20px;
+
+}
+
+#lateral_bar{
+
+ 	display: inline-block;
+	background-color: #e1e1e1;
+	height: 1000px;
+  width: 200px;
+
+}
+
+
+#firts_info {
+  display: inline-block;
+  vertical-align: top;
+	border: 2px solid red;
+	width: 1064px;
+}
