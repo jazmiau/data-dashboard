@@ -6,6 +6,7 @@ nav img{ /*Logo laboratoria*/
 }
 
 .correo{
+<<<<<<< HEAD
 font-family: 'Doppio One', sans-serif;
 font-size: 20px;
 display: inline-block;
@@ -31,3 +32,22 @@ display: inline-block;
 margin-left: 250px;
 
 }
+=======
+  font-family: 'Doppio One', sans-serif;
+  font-size: 15px;
+  display: inline-block;
+  float: right;
+  margin-right: 20px;
+	margin-top: 20px;
+	color: #e1e1e1;
+}
+
+nav button{
+	float: right;
+	margin-top: 10px;
+	margin-right: 20px;
+	background-color: transparent;
+	border: transparent;
+	font-size: 30px;
+}
+>>>>>>> b656293dbd532b238173de1c6cdd6c45eb00d1f9
