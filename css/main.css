@@ -106,8 +106,8 @@ li .fa-sort-desc{
  	border: 2px solid red;
   	width: 1000px;
   	position: relative;
-  	bottom: 710px;
-  	left: 250px;
+  	bottom: 700px;
+  	left: 40px;
 }
 
 .graphic1{
@@ -146,7 +146,7 @@ li .fa-sort-desc{
   	height: auto;
   	position:relative;
 	left: 250px;
-	bottom: 600px;
+	bottom: 700px;
 
 }
 
