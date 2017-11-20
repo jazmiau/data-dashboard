@@ -7,14 +7,16 @@
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Doppio+One" rel="stylesheet">
   </head>
-  <body>
+
+
+  <body> <!--Cuerpo-->
     <nav> <!--Encabezado-->
-      <img src="assets/images/logo.png" alt="">
-      <button type="button" name="button"><i class="fa fa-bars" aria-hidden="true"></i></button>
+      <img src="assets/images/logo.png" alt=""> <!--LogoLaboratoria-->
+      <button type="button" name="button"><i class="fa fa-bars" aria-hidden="true"></i></button> <!--Boton de arriba-->
       <p class="correo"> correo@example.com</p>
     </nav>
 
-    <section id="lateral_bar"> <!--barra lateral-->
+    <aside id="lateral_bar"> <!--barra lateral-->
       <div class="box1">
         <h2>VENUES</h2>
       </div>
@@ -26,6 +28,7 @@
           <li><input type="checkbox"><p>Ciudad de México</p></li>
         </ul>
       </div>
+
       <div class="box3">
         <h2>GENERATIONS</h2>
       </div>
@@ -40,45 +43,82 @@
       <div class="box5"> <!--menú desplegable-->
         <h2>TEACHERS</h2><button type="button"><i class="fa fa-sort-desc" aria-hidden="true"></i></button>
       </div>
-    </section>
+    </aside>
+      
+    <h1>OVERVIEW</h1>
+    <h1 class="student">STUDENT</h1>
+    <hr>
 
-    <section id="firts_info"> <!--sección graficos alumnas-->
+    <section id="firts_info"> <!--sección graficos-->
+      <div class="graphic1"> <!--primeros graficos chicos-->
+        <h2>ENROLLMENT</h2>
+        <img src="assets/images/bar-graph.png">
+        <!--podemos poder imágenes de gráficos o gráficos reales-->
+      </div>
+
+      <div class="graphic2">
+        <h2>ACHIEVEMENT</h2>
+        <img src="assets/images/bar-graph.png">
+        <!--podemos poder imágenes de gráficos o gráficos reales-->
+      </div>
+
+      <div class="graphic3">
+        <h2>NET PROMOTER SCORE</h2>
+        <img src="assets/images/bar-graph.png">
+        <!--podemos poder imágenes de gráficos o gráficos reales-->
+      </div>
+    
+
+      <div class="notes"><!--notas sprint-->
+        <h2>TECH SKILLS</h2>
+        <img src="assets/images/rectangular-graphic.png"><!--imagen-->
+      </div>
+
+
+      <div class="tec"><!--porcentajes técnicos-->
+        <img src="assets/images/circle-graphic.png"><!--imagen-->
+      </div>
+
+
+    
+      <div class="cont">
+        <h2>LAST SKILLS</h2>
+        <img src="assets/images/rectangular-graphic.png">
+      </div><!--imagen-->
+      
+      <div class="tec"><!--porcentajes técnicos-->
+        <img src="assets/images/circle-graphic.png"><!--imagen-->
+      </div>
+
+    
+        <!--div que contenga info sobre profesores-->
+     
+
       <div class="graphic1">
         <h2>ENROLLMENT</h2>
         <img src="assets/images/bar-graph.png">
         <!--podemos poder imágenes de gráficos o gráficos reales-->
       </div>
+
       <div class="graphic2">
         <h2>ACHIEVEMENT</h2>
-        <img src="assets/images/bar-graph.png">>
+        <img src="assets/images/bar-graph.png">
         <!--podemos poder imágenes de gráficos o gráficos reales-->
       </div>
+
       <div class="graphic3">
         <h2>NET PROMOTER SCORE</h2>
-        <img src="assets/images/bar-graph.png">>
+        <img src="assets/images/bar-graph.png">
         <!--podemos poder imágenes de gráficos o gráficos reales-->
       </div>
-    </section>
-
-    <section id="second_info"> <!--sección sprint-->
-      <div class="notes"><!--notas sprint-->
-        <img src="assets/images/rectangular-graphic.png"><!--imagen-->
-      </div>
-      <div class="tec"><!--porcentajes técnicos-->
-        <img src="assets/images/circle-graphic.png"><!--imagen-->
-      </div>
-      <div class="satisfaction"><!--porcentaje satisfacción-->
-        <img src="assets/images/graph.png"><!--imagen-->
-      </div>
-    </section>
-
-    <section id="last_info"><!--sección profesores/jedi masters-->
-      <div class="cont">
-        <!--div que contenga info sobre profesores-->
-      </div>
 
     </section>
 
+
+<footer>
+  <div class="pie_de_pagina"></div>
+  <button class="botonfinal">Comment</button>
+</footer>
 		<!-- Base de datos -->
 		<script src="./js/data.js"></script>
 		<!-- Aquí va tus archivos JS -->
