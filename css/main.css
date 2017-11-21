@@ -206,7 +206,7 @@ h2{
 	display: inline-block;
 	margin-left: 25px;
 	margin-top: 25px;
-	margin-bottom: 30px;	
+	margin-bottom: 30px;
 	margin-bottom: 25px;
 
 
@@ -242,6 +242,7 @@ footer{
 	position: absolute;
 	background: #BDBDBD;
 	border-radius: 4%;
+	margin-top: -20px;
 }
 
 #opcs-menu #list{
