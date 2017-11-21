@@ -1,7 +1,7 @@
 body{
 
 	margin: 0px auto;
-	background-color: #F2F2F2;
+	background-color: white;
 }
 
 
@@ -150,21 +150,40 @@ h2{
 
 .graphic1{
 	display: inline-block;
-	margin-left:50px;
+	margin-left:20px;
 	margin-right: 30px;
 }
 
+
 .graphic2{
 	display: inline-block;
-	margin-right: 30px;
+	margin-right: 20px;
 }
 
 .graphic3{
 	display: inline-block;
+	margin-right: 20px;
+}
+
+.graphic6{
+	display: inline-block;
+	margin-left:20px;
 	margin-right: 30px;
+	margin-top: 30px;
 }
 
 
+.graphic7{
+	display: inline-block;
+	margin-right: 20px;
+	margin-top: 30px;
+}
+
+.graphic8{
+	display: inline-block;
+	margin-right: 20px;
+	margin-top: 30px;
+}
 
 .notes{
 
@@ -176,7 +195,8 @@ h2{
 
 .tec{
 	display: inline-block;
-	margin-left: 30px;
+	margin-left: 200px;
+	margin-bottom: 30px;
 }
 
 .satisfaction{
@@ -189,7 +209,7 @@ h2{
 	display: inline-block;
 	margin-left: 25px;
 	margin-top: 25px;
-	margin-bottom: 25px;	
+	margin-bottom: 30px;	
 
 }
 
