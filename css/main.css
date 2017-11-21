@@ -41,6 +41,11 @@ h1{
 
 }
 
+.tittle{
+	text-decoration: none;
+	color: black;
+}
+
 nav button{
 	float: right;
 	margin-top: 10px;
@@ -298,4 +303,16 @@ option{
 option:hover{
   background-color: lightgray;
   color: white;
+}
+
+.alumnas{
+	position: absolute;
+	margin-top: 110px;
+	margin-left: 210px;
+}
+
+.alumnas img{
+	display: block;
+	margin-bottom: 20px;
+	width: 700px;
 }
