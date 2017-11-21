@@ -114,7 +114,7 @@ h2{
 
 .box5 *{
 	width: auto;
-	/*display: inline-block;*/
+	display: inline-block;
 }
 
 .box5 h2{
@@ -213,7 +213,7 @@ footer{
 /*menú desplegable sección profesores*/
 
 .box5{
-	height: 42px;
+	height: 60px;
 }
 
 #opcs-menu{
@@ -260,7 +260,7 @@ footer{
 }
 
 select{
-  background-color: #e1e1e1;
+  background-color: #F7B500;
   width: 120px;
 	margin-left: 20px;
   padding: 20px;
